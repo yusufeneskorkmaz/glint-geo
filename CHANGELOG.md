@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 — 2026-09-27
+
+- Include the technical note as `docs/technical_note.pdf` and remove the
+  pending DOI reference from the documentation.
+
 ## 0.1.1 — 2026-09-27
 
 - Default plots to median-relative magnitude, distinguish SNR < 3 bins,

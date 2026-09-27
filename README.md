@@ -27,6 +27,7 @@ notebooks or `.env` files.
 
 ## Reproduce Figure 2 of the technical note
 
+Figure 2 and its interpretation are in the [included technical note](docs/technical_note.pdf).
 Exposure 115845983 was acquired on the 2020-03-03 Palomar night, at
 2020-03-04 11:02 UTC. Run these commands from the repository root:
 
@@ -38,9 +39,6 @@ python3 -m glint_geo.cli extract
 python3 -m glint_geo.cli plot --curve out/26871_115845983_c07q2.csv \
   --output out/goes12_figure2.png
 ```
-
-Citation: Yusuf Enes Korkmaz (2026), *Archival ZTF streak photometry of
-retired GEO satellites*, technical note, Figure 2. Zenodo DOI: **[pending]**.
 
 `fetch` writes a provenance manifest and downloads public cutouts to `cache/`.
 `extract` writes one tidy CSV per streak plus calibration, URLs, hashes, and
@@ -82,6 +80,9 @@ they do not change the extracted CSV or provenance manifest.
 and skipped by default. See `examples/goes12_quickstart.ipynb` for the same
 public-data workflow in a notebook.
 
-Use the citation in `CITATION.cff`. For ZTF and IRSA acknowledgment text and
+Technical note citation: Korkmaz, Y. E. (2026). *Archival ZTF streak photometry
+of retired GEO satellites.* Technical note, [docs/technical_note.pdf](docs/technical_note.pdf).
+The PDF states a CC-BY-4.0 license; the package code is BSD-3-Clause.
+For the software, use `CITATION.cff`. For ZTF and IRSA acknowledgment text and
 orbital-data handling, see `DATA_POLICY.md`. The public ZTF image service is
 identified by [DOI 10.26131/IRSA539](https://doi.org/10.26131/IRSA539).

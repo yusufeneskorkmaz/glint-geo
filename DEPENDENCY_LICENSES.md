@@ -1,4 +1,4 @@
-# Dependency license check for 0.1.1
+# Dependency license check for 0.1.2
 
 The Python 3.12 environment resolved on 2026-09-27 was inspected with
 `importlib.metadata` before the first push. The direct runtime dependencies

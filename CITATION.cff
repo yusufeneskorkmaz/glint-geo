@@ -6,7 +6,7 @@ authors:
   - family-names: Korkmaz
     given-names: Yusuf Enes
     orcid: "https://orcid.org/0009-0008-0169-8611"
-version: 0.1.1
+version: 0.1.2
 date-released: 2026-09-27
 license: BSD-3-Clause
 repository-code: "https://github.com/yusufeneskorkmaz/glint-geo"
