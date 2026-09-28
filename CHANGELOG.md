@@ -2,6 +2,8 @@
 
 ## 0.1.2 — 2026-09-27
 
+- Release GEO Light Curve Archive v1.0: 243 streak light curves from public
+  ZTF data, licensed CC-BY-4.0 with ZTF and IRSA acknowledgments.
 - Include the technical note as `docs/technical_note.pdf` and remove the
   pending DOI reference from the documentation.
 

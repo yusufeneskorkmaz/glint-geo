@@ -74,6 +74,15 @@ identify bad-pixel and bright-star masks in the legend. Use
 `--snr-cutoff` to change the display cutoff. These options affect plots only;
 they do not change the extracted CSV or provenance manifest.
 
+## Dataset
+
+GEO Light Curve Archive v1.0 contains 243 streak light curves of GOES 8, 9,
+10, 11, 12 and Inmarsat-2 F2 extracted from public ZTF data. It is a subset
+of available coverage, not a complete record. The derived light curves and
+manifest are licensed CC-BY-4.0 with the required ZTF and IRSA acknowledgments;
+see `DATASET_CARD.md` inside the archive for attribution, methods, limitations
+and date ranges. Download it from the [v0.1.2 release](https://github.com/yusufeneskorkmaz/glint-geo/releases/tag/v0.1.2).
+
 ## Tests and citation
 
 `python3 -m pytest` runs synthetic offline tests. Live tests are marked `live`
